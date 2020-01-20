@@ -7,35 +7,19 @@
 /*---------------------------------
 	IMPORTS
 -----------------------------------*/
-@import url(https://fonts.googleapis.com/css?family=Rancho:400,700);
+@import url(https://fonts.googleapis.com/css?family=Merriweather:400,700);
 
 /*---------------------------------
 	OVERRIDES
 -----------------------------------*/
 h1,h2,h3,h4,h5,h6{
-font-family: "Rancho", arial, verdana, sans-serif;
+font-family: "Merriweather", serif;
 font-weight:normal;
 }
 
 thead th,
 tbody th{
-font-family: "Rancho", arial, verdana, sans-serif;
-}
-
-button,
-a.btn,
-input[type="submit"],
-input[type="reset"],
-input[type="button"]{
-font-family: "Arimo", arial, verdana, sans-serif;
-}
-
-.menu{
-font-family: "Arimo", arial, verdana, sans-serif;
-}
-
-blockquote{
-font-family: "Arimo", arial, verdana, sans-serif;
+font-family: "Merriweather", serif;
 }
 
 /*---------------------------------
@@ -50,7 +34,7 @@ margin:0;
 padding:0 0 0 0;
 color:#000;
 background:#1E5999;
-font:normal 0.9em/150% 'Georgia', arial, verdana, sans-serif;
+font:normal 0.9em/150% 'Merriweather', arial, verdana, sans-serif;
 text-shadow: 0 0 1px transparent; /* google font pixelation fix */
 }
 
@@ -70,7 +54,7 @@ border:1px solid #ccc;
 }
 
 p {
-	font: georgia;
+	font-family: times;
 	font-size: 1.5em;
 	margin: 20px;
 }
